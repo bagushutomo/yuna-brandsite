@@ -37,7 +37,7 @@ return gulp.src(scssDir + '**/*.scss')
 });
 
 gulp.task('js', function() {
-return gulp.src([scriptsDir + 'plugins.js', scriptsDir + 'site.js'])
+return gulp.src([scriptsDir + 'plugins.js', scriptsDir + 'main.js'])
 			.pipe(sourcemaps.init())
 			.pipe(concat('site.js'))
 			.pipe(gulp.dest(scriptsDistDir))
