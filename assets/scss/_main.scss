@@ -1,0 +1,116 @@
+@import "modules/function";
+@import "modules/responsive";
+@import "modules/debug";
+@import "modules/fonts";
+// @import "modules/header";
+// @import "modules/footer";
+
+/**
+ * Z-index layer ordering..
+ */
+$layerSidenav: 99999;
+$layerHeader: 99998;
+// $layerLectureMasthead: 20;
+// $layerContact: 19;
+// $layerColophon: 19;
+// $layerMasthead: 18;
+// $layerBaloon: 17;
+// $layerLecturer: 16;
+// $layerIpad: 15;
+// $layerFeatures: 9;
+// $layerIntroImage: 4;
+// $layerFeatureBgs: 2;
+// $layerSceneHooks: 1;
+
+/**
+ * Common Elements
+ */
+
+h1, h2, h3, h4, h5, h6 {
+	text-rendering: auto;
+	cursor: auto;
+}
+
+p {
+	text-rendering: auto;
+	cursor: auto;
+}
+
+#content {
+	// position: relative;
+	display: block;
+}
+
+#sidenav {
+	display: none;
+	position: fixed;
+	z-index: $layerSidenav;
+	top: 40%;
+	left: 0px;
+	width: auto;
+	margin-top: -77px;
+	padding: 0;
+	
+	ul {
+		padding-left: 0px;
+		
+		li {
+			margin-bottom: 10px;
+			
+			a {
+				// width: 120px;
+				width: 40px;
+				height: 34px;
+				position: relative;
+				display: inline-block;
+				color: #fff;
+				background-color: rgba(0, 0, 0, .2);
+				padding: 10px 8px;
+				text-decoration: none;
+				font-family: 'montserrat';
+				font-size: em-calc(14px);
+				vertical-align: middle;
+				overflow: hidden;
+				
+				// @include border-radius(0 5px 5px 0);
+				// @include transition-property(background-color);
+				// @include transition-duration(.4s);
+
+				&.nav {
+					height: 12px;
+					padding: 0;
+					background: #000;
+					border-radius: 7px;
+				}
+
+				span.navlabel {
+					margin-left: 10px;
+					overflow: hidden;
+					// @include opacity(0);
+				}
+
+				&.active {
+					// @include transition-property(background-color);
+					// @include transition-duration(.4s);
+  					background-color: rgba(0, 0, 0, .8);
+				}
+
+				&:hover  {
+					// @include transition-property(background-color);
+					// @include transition-duration(.4s);
+					width: auto;
+  					background-color: rgba(0, 0, 0, .8);
+  					
+  					span.navlabel {
+						// overflow: hidden;
+  						// @include opacity(1);
+						// @include transition-property(opacity);
+						// @include transition-duration(.8s);
+  					}
+				}
+			}
+		}
+	}
+}
+
+

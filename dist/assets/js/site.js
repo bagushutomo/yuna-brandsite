@@ -1,0 +1,2 @@
+!function(){for(var o,e=function(){},n=["assert","clear","count","debug","dir","dirxml","error","exception","group","groupCollapsed","groupEnd","info","log","markTimeline","profile","profileEnd","table","time","timeEnd","timeStamp","trace","warn"],i=n.length,r=window.console=window.console||{};i--;)o=n[i],r[o]||(r[o]=e)}(),function(o){console.log("js initiated")}(jQuery);
+//# sourceMappingURL=site.js.map
