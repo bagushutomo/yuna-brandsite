@@ -1,0 +1,39 @@
+{
+  "name": "yuna-brandsite",
+  "version": "1.0.0",
+  "description": "Product website for Yuna app",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-pug": "^3.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.0.1",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11",
+    "gulp.spritesmith": "^6.3.0",
+    "imagemin-pngquant": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bagushutomo/yuna-brandsite.git"
+  },
+  "keywords": [
+    "yuna"
+  ],
+  "author": "Bagus Hutomo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bagushutomo/yuna-brandsite/issues"
+  },
+  "homepage": "https://github.com/bagushutomo/yuna-brandsite#readme"
+}
