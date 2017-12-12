@@ -8,8 +8,8 @@
 /**
  * Z-index layer ordering..
  */
-$layerSidenav: 99999;
-$layerHeader: 99998;
+// $layerSidenav: 99999;
+// $layerHeader: 99998;
 // $layerLectureMasthead: 20;
 // $layerContact: 19;
 // $layerColophon: 19;
@@ -21,6 +21,7 @@ $layerHeader: 99998;
 // $layerIntroImage: 4;
 // $layerFeatureBgs: 2;
 // $layerSceneHooks: 1;
+$colorAmour: #ffe4ea;
 
 /**
  * Common Elements
@@ -36,6 +37,39 @@ p {
 	cursor: auto;
 }
 
+body {
+	background-color: $colorAmour;
+}
+
+nav.collapsed {
+	display: none;
+}
+
+nav.expanded {
+	display: block;
+}
+
+.no-select {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 #content {
 	// position: relative;
 	display: block;
@@ -44,7 +78,7 @@ p {
 #sidenav {
 	display: none;
 	position: fixed;
-	z-index: $layerSidenav;
+	// z-index: $layerSidenav;
 	top: 40%;
 	left: 0px;
 	width: auto;
