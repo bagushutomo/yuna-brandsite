@@ -1,15 +1,45 @@
 extends _includes/_layout
 
 block title
-  title Yuna &amp; Co | Your Personal Fashion Matchmaker
+	title Yuna &amp; Co | Your Personal Fashion Matchmaker
 
 block content
 
-  nav.nav#js_nav_button(role="navigation", aria-label="Navigation")
-    
+	nav.main_nav#js_nav(role="navigation", aria-label="Navigation")
+		.nav_wrapper
+			//- .nav_expand
+				a.nav_expand_button.no_select#js_nav_button
+					.nav_expand_iconwrapper
+						span.hamburger_icon
+			.nav_content
+				a.logo_app(href="index.html")
+				ul.menu
+					li.menu_item
+						a.menu_item_link(href='#info_home') Home
+					li.menu_item
+						a.menu_item_link(href='#info_features') Features
+					li.menu_item
+						a.menu_item_link(href='#info_download') Download
+				.menu_additional
+					.menu_additional_social
+						h6 Follow Us
+						.socmed_list
+							a(href='#')
+								i.fas.fa-play
+							a(href='#')
+								i.fab.fa-facebook-f
+							a(href='#')
+								i.fab.fa-instagram
+					.menu_additional_contact
+						h6 You Can Also
+						a.contact_us(href="#")
+							span Drop Us A Line <i class="fas fa-arrow-right"></i>
+			.copyrights
+				p.copyrights_text All rights reserved. © 2017 Yuna + Co
 
 
-  h1 sadfsafdsaf
+
+	h1 sadfsafdsaf
 
 
-  include _includes/scripts
+	include _includes/scripts
