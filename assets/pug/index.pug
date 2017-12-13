@@ -5,12 +5,8 @@ block title
 
 block content
 
-	nav.main_nav#js_nav(role="navigation", aria-label="Navigation")
+	nav.main_nav.collapsed#js_nav(role="navigation", aria-label="Navigation")
 		.nav_wrapper
-			//- .nav_expand
-				a.nav_expand_button.no_select#js_nav_button
-					.nav_expand_iconwrapper
-						span.hamburger_icon
 			.nav_content
 				a.logo_app(href="index.html")
 				ul.menu
@@ -37,9 +33,51 @@ block content
 			.copyrights
 				p.copyrights_text All rights reserved. © 2017 Yuna + Co
 
+	section.root
+		.scene.scene_1#scene1
+			.scene_wrapper
+				h1 Meet Yuna,<br />your personal<br />fashion matchmaker.
+				a.button_continue(href='#') Get To Know Her <br /><i class="fas fa-arrow-down"></i>
+		.scene.scene_2#scene2
+			.scene_wrapper
+				.feature
+					.stamp
+					.text
+						h2 Understands You
+						p Yuna continuously learns about you and your unique personal style so that she is able to curate and give you better outfit ideas to match you well.
+		.scene.scene_3#scene3
+			.scene_wrapper
+				.feature
+					.stamp
+						.span Feature
+						.num Nº 2
+					.text
+						h2 Connects You
+						p Upon understanding you, Yuna matches you with her fashion companions, so you can interact with each of them personally. Fashion, after all, is all about relationships.
+		.scene.scene_4#scene4
+			.scene_wrapper
+				.feature
+					.stamp
+						.span Feature
+						.num Nº 3
+					.text
+						h2 Inspires You
+						p Yuna would give your news, tips, and tricks on fashion. It’s not just about Yuna knowing you, but it’s also for you to know more about fashion. It’s a fashion journey together.
+		.scene.scene_5#scene5
+			.scene_wrapper
+				.feature
+					.stamp
+						.span Feature
+						.num Nº 4
+					p Get instant style suggestions andstay fashionably ahead.
+					a.store_badges(href='http://yna.li/ios/')
+					a.store_badges(href='http://yna.li/android/')
 
-
-	h1 sadfsafdsaf
-
+	.nav_icon3#js_nav_expand
+		span
+		span
+		span
+		span
+	
 
 	include _includes/scripts

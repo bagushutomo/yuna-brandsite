@@ -1,4 +1,6 @@
 (function(jq) {
-	console.log('js initiated 2');
-	console.log('000000');
+	$('#js_nav_expand').click(function(){
+		$(this).toggleClass('open');
+		$('#js_nav').toggleClass('collapsed');
+	});
 })(jQuery);
