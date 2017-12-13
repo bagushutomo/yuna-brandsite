@@ -17,29 +17,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   </head>
   <body class="debug">
-    <nav class="main_nav collapsed" id="js_nav" role="navigation" aria-label="Navigation">
-      <div class="nav_wrapper">
-        <div class="nav_content"><a class="logo_app" href="index.html"></a>
-          <ul class="menu">
-            <li class="menu_item"><a class="menu_item_link" href="#info_home">Home</a></li>
-            <li class="menu_item"><a class="menu_item_link" href="#info_features">Features</a></li>
-            <li class="menu_item"><a class="menu_item_link" href="#info_download">Download</a></li>
-          </ul>
-          <div class="menu_additional">
-            <div class="menu_additional_social">
-              <h6>Follow Us</h6>
-              <div class="socmed_list"><a href="#"><i class="fas fa-play"></i></a><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div>
-            </div>
-            <div class="menu_additional_contact">
-              <h6>You Can Also</h6><a class="contact_us" href="#"><span>Drop Us A Line <i class="fas fa-arrow-right"></i></span></a>
-            </div>
-          </div>
-        </div>
-        <div class="copyrights">
-          <p class="copyrights_text">All rights reserved. © 2017 Yuna + Co</p>
-        </div>
-      </div>
-    </nav>
+    <header><a href="#"><img class="title" src="../assets/img/logo_text.svg"/></a>
+      <div class="nav_icon3" id="js_nav_expand"><span></span><span></span><span></span><span></span></div>
+    </header>
     <section class="root">
       <div class="scene scene_1" id="scene1">
         <div class="scene_wrapper">
@@ -49,7 +29,9 @@
       <div class="scene scene_2" id="scene2">
         <div class="scene_wrapper">
           <div class="feature">
-            <div class="stamp"></div>
+            <div class="page">
+              <div class="stamp"></div>
+            </div>
             <div class="text">
               <h2>Understands You</h2>
               <p>Yuna continuously learns about you and your unique personal style so that she is able to curate and give you better outfit ideas to match you well.</p>
@@ -60,9 +42,8 @@
       <div class="scene scene_3" id="scene3">
         <div class="scene_wrapper">
           <div class="feature">
-            <div class="stamp">
-              <div class="span">Feature</div>
-              <div class="num">Nº 2</div>
+            <div class="page">
+              <div class="stamp"></div>
             </div>
             <div class="text">
               <h2>Connects You</h2>
@@ -74,13 +55,12 @@
       <div class="scene scene_4" id="scene4">
         <div class="scene_wrapper">
           <div class="feature">
-            <div class="stamp">
-              <div class="span">Feature</div>
-              <div class="num">Nº 3</div>
+            <div class="page">
+              <div class="stamp"></div>
             </div>
             <div class="text">
-              <h2>Inspires You</h2>
-              <p>Yuna would give your news, tips, and tricks on fashion. It’s not just about Yuna knowing you, but it’s also for you to know more about fashion. It’s a fashion journey together.</p>
+              <h2>Finds You a Match</h2>
+              <p>As you chat with Yuna, she will give recommendations of items that fits your preferences. So keep interacting with Yuna because for her each match is a celebration.</p>
             </div>
           </div>
         </div>
@@ -88,16 +68,49 @@
       <div class="scene scene_5" id="scene5">
         <div class="scene_wrapper">
           <div class="feature">
-            <div class="stamp">
-              <div class="span">Feature</div>
-              <div class="num">Nº 4</div>
+            <div class="page">
+              <div class="stamp"></div>
             </div>
-            <p>Get instant style suggestions andstay fashionably ahead.</p><a class="store_badges" href="http://yna.li/ios/"></a><a class="store_badges" href="http://yna.li/android/"></a>
+            <div class="text">
+              <h2>Inspire You</h2>
+              <p>Yuna would give your news, tips, and tricks on fashion. It’s not just about Yuna knowing you, but it’s also for you to know more about fashion. It’s a fashion journey together.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene scene_6" id="scene6">
+        <div class="scene_wrapper">
+          <div class="feature">
+            <div class="text">
+              <p>Get instant style suggestions and stay fashionably ahead.</p><a class="store_badges_ios" href="http://yna.li/ios/"><img src="../assets/img/button_appstore@2x.jpg"/></a><a class="store_badges_android" href="http://yna.li/android/"><img src="../assets/img/button_playstore@2x.jpg"/></a>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <div class="nav_icon3" id="js_nav_expand"><span></span><span></span><span></span><span></span></div>
+    <nav class="main_nav collapsed" id="js_nav" role="navigation" aria-label="Navigation">
+      <div class="nav_wrapper">
+        <div class="nav_content"><a class="logo_app" href="index.html"></a>
+          <ul class="menu">
+            <li class="menu_item"><a class="menu_item_link" href="#scene1">Home</a></li>
+            <li class="menu_item"><a class="menu_item_link" href="#scene2">Features</a></li>
+            <li class="menu_item"><a class="menu_item_link" href="#scene6">Download</a></li>
+          </ul>
+          <div class="menu_additional">
+            <div class="menu_additional_social">
+              <h6>Follow Us</h6>
+              <div class="socmed_list"><a href="#"><i class="fas fa-play"></i></a><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div>
+            </div>
+            <div class="menu_additional_contact">
+              <h6>You Can Also</h6><a class="contact_us" href="mailto:xxxxx"><span>Drop Us A Line <i class="fas fa-arrow-right"></i></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="copyrights">
+          <p class="copyrights_text">All rights reserved. © 2017 Yuna + Co</p>
+        </div>
+      </div>
+    </nav>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../assets/js/vendors/jquery-2.1.4.min.js"><\/script>')</script>
     <script src="../assets/js/site.js"></script>
@@ -107,7 +120,7 @@
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
       
-      ga('create', 'UA-90533206-1', 'auto');
+      ga('create', 'UA-xxxxxx-1', 'auto');
       ga('send', 'pageview');
     </script>
   </body>

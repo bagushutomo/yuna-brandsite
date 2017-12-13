@@ -5,17 +5,74 @@ block title
 
 block content
 
+	header
+		a(href='#')
+			img.title(src='../assets/img/logo_text.svg')
+		.nav_icon3#js_nav_expand
+			span
+			span
+			span
+			span
+
+
+	section.root
+		.scene.scene_1#scene1
+			.scene_wrapper
+				h1 Meet Yuna,<br />your personal<br />fashion matchmaker.
+				a.button_continue(href='#') Get To Know Her <br /><i class="fas fa-arrow-down"></i>
+		.scene.scene_2#scene2
+			.scene_wrapper
+				.feature
+					.page
+						.stamp
+					.text
+						h2 Understands You
+						p Yuna continuously learns about you and your unique personal style so that she is able to curate and give you better outfit ideas to match you well.
+		.scene.scene_3#scene3
+			.scene_wrapper
+				.feature
+					.page
+						.stamp
+					.text
+						h2 Connects You
+						p Upon understanding you, Yuna matches you with her fashion companions, so you can interact with each of them personally. Fashion, after all, is all about relationships.
+		.scene.scene_4#scene4
+			.scene_wrapper
+				.feature
+					.page
+						.stamp
+					.text
+						h2 Finds You a Match
+						p As you chat with Yuna, she will give recommendations of items that fits your preferences. So keep interacting with Yuna because for her each match is a celebration.
+		.scene.scene_5#scene5
+			.scene_wrapper
+				.feature
+					.page
+						.stamp
+					.text
+						h2 Inspire You
+						p Yuna would give your news, tips, and tricks on fashion. It’s not just about Yuna knowing you, but it’s also for you to know more about fashion. It’s a fashion journey together.
+		.scene.scene_6#scene6
+			.scene_wrapper
+				.feature
+					.text
+						p Get instant style suggestions and stay fashionably ahead.
+						a.store_badges_ios(href='http://yna.li/ios/')
+							img(src='../assets/img/button_appstore@2x.jpg')
+						a.store_badges_android(href='http://yna.li/android/')
+							img(src='../assets/img/button_playstore@2x.jpg')
+
 	nav.main_nav.collapsed#js_nav(role="navigation", aria-label="Navigation")
 		.nav_wrapper
 			.nav_content
 				a.logo_app(href="index.html")
 				ul.menu
 					li.menu_item
-						a.menu_item_link(href='#info_home') Home
+						a.menu_item_link(href='#scene1') Home
 					li.menu_item
-						a.menu_item_link(href='#info_features') Features
+						a.menu_item_link(href='#scene2') Features
 					li.menu_item
-						a.menu_item_link(href='#info_download') Download
+						a.menu_item_link(href='#scene6') Download
 				.menu_additional
 					.menu_additional_social
 						h6 Follow Us
@@ -28,56 +85,11 @@ block content
 								i.fab.fa-instagram
 					.menu_additional_contact
 						h6 You Can Also
-						a.contact_us(href="#")
+						a.contact_us(href="mailto:xxxxx")
 							span Drop Us A Line <i class="fas fa-arrow-right"></i>
 			.copyrights
 				p.copyrights_text All rights reserved. © 2017 Yuna + Co
 
-	section.root
-		.scene.scene_1#scene1
-			.scene_wrapper
-				h1 Meet Yuna,<br />your personal<br />fashion matchmaker.
-				a.button_continue(href='#') Get To Know Her <br /><i class="fas fa-arrow-down"></i>
-		.scene.scene_2#scene2
-			.scene_wrapper
-				.feature
-					.stamp
-					.text
-						h2 Understands You
-						p Yuna continuously learns about you and your unique personal style so that she is able to curate and give you better outfit ideas to match you well.
-		.scene.scene_3#scene3
-			.scene_wrapper
-				.feature
-					.stamp
-						.span Feature
-						.num Nº 2
-					.text
-						h2 Connects You
-						p Upon understanding you, Yuna matches you with her fashion companions, so you can interact with each of them personally. Fashion, after all, is all about relationships.
-		.scene.scene_4#scene4
-			.scene_wrapper
-				.feature
-					.stamp
-						.span Feature
-						.num Nº 3
-					.text
-						h2 Inspires You
-						p Yuna would give your news, tips, and tricks on fashion. It’s not just about Yuna knowing you, but it’s also for you to know more about fashion. It’s a fashion journey together.
-		.scene.scene_5#scene5
-			.scene_wrapper
-				.feature
-					.stamp
-						.span Feature
-						.num Nº 4
-					p Get instant style suggestions andstay fashionably ahead.
-					a.store_badges(href='http://yna.li/ios/')
-					a.store_badges(href='http://yna.li/android/')
-
-	.nav_icon3#js_nav_expand
-		span
-		span
-		span
-		span
 	
 
 	include _includes/scripts
